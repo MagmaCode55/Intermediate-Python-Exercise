@@ -1,5 +1,6 @@
 list_01 = []
 counter = 1
+sum = 0
 while len(list_01) !=  5:
     
     try:
@@ -11,3 +12,6 @@ while len(list_01) !=  5:
         print('Invalid input. Please enter an int')
 
 print(list_01)
+for i in list_01:
+    sum += i
+print(sum)
