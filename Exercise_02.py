@@ -6,7 +6,7 @@ def get_combined_dict(dict_01, dict_02):
     for i in dict_01.keys():
         for j in dict_02.keys():
             if(i == j):
-                fin_dict[i] = (dict_01[i]+dict_02[j])
+                final_dict[i] = (dict_01[i]+dict_02[j])
 
     return final_dict
 
